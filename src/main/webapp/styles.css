@@ -1,0 +1,18 @@
+/* Estilo general para el contenedor del carrusel */
+.carousel-inner {
+    max-height: 500px; /* Ajusta esta altura según tus necesidades */
+    overflow: hidden;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-inner img {
+    object-fit: cover; /* Asegura que las imágenes cubran todo el espacio del contenedor */
+    object-position: center; /* Centra las imágenes dentro del contenedor */
+    width: 100%;
+    height: 100%;
+}
+
+/* Opcional: Añadir bordes redondeados a las imágenes */
+.carousel-inner img {
+    border-radius: 10px; /* Ajusta según prefieras */
+}
